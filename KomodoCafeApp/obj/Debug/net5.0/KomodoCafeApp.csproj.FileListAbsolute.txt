@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\bin\Debug\net5.0\KomodoCafeApp.exe
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\bin\Debug\net5.0\KomodoCafeApp.dll.config
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\bin\Debug\net5.0\KomodoCafeApp.deps.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\bin\Debug\net5.0\KomodoCafeApp.runtimeconfig.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\bin\Debug\net5.0\KomodoCafeApp.runtimeconfig.dev.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\bin\Debug\net5.0\KomodoCafeApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\bin\Debug\net5.0\ref\KomodoCafeApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\bin\Debug\net5.0\KomodoCafeApp.pdb
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\KomodoCafeApp.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\KomodoCafeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\KomodoCafeApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\KomodoCafeApp.AssemblyInfo.cs
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\KomodoCafeApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\KomodoCafeApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\ref\KomodoCafeApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\KomodoCafeApp.pdb
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeApp\obj\Debug\net5.0\KomodoCafeApp.genruntimeconfig.cache
