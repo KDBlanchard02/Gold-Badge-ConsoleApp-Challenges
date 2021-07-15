@@ -21,6 +21,7 @@ namespace KomodoCafeApp
 
         public void Start()
         {
+            SeedMenuList();
             RunMenu();
         }
 
@@ -39,7 +40,8 @@ namespace KomodoCafeApp
             Console.WriteLine("Komodo Cafe Menu Management - Select a # and press enter. \n" +
                               "1. Add Menu Item \n" +
                               "2. Delete Menu Item \n" +
-                              "3. Display Menu \n");
+                              "3. Display Menu \n" +
+                              "4. Exit App \n");
 
             string userInput = Console.ReadLine();
             return userInput;
@@ -59,6 +61,9 @@ namespace KomodoCafeApp
                     break;
                 case "3":
                     DisplayFullMenu();
+                    break;
+                case "4":
+                    ExitApp();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection. Press any Key To Return to Main Menu.");
@@ -102,11 +107,10 @@ namespace KomodoCafeApp
 
         private void DisplayMenu(Menu menu)
         {
-            Console.Clear();
             Console.WriteLine($"Number: {menu.Number}\n" +
                                   $"Name: {menu.Name}\n" +
                                   $"Description: {menu.Description}\n" +
-                                  $"Price: {menu.Price}\n" );
+                                  $"Price: ${menu.Price}\n" );
         }
 
         private void DeleteMenuItem()
@@ -118,11 +122,26 @@ namespace KomodoCafeApp
             PressAnyKey();
         }
 
-        public void PressAnyKey()
+        private void PressAnyKey()
         {
             Console.WriteLine("Press any key to return to the main menu.");
             Console.ReadKey();
             RunMenu();
+        }
+
+        private void ExitApp()
+        {
+            _isRunning = false;
+        }
+
+        private void SeedMenuList()
+        {
+            Menu burger = new Menu(1, "Cheeseburger", "A yummy 'Merican classic.", 3.99);
+            Menu friedChicken = new Menu(2, "Bucket O Fried Chicken", "A large bucket of deep-fried chicken.", 12.99);
+            Menu grilledCheese = new Menu(3, "Grilled Cheese", "Two freshly toasted/roasted slices of white bread, held together by cheddar.", 2.99);
+            _repo.CreateMenuItem(burger);
+            _repo.CreateMenuItem(friedChicken);
+            _repo.CreateMenuItem(grilledCheese);
         }
     }
 }

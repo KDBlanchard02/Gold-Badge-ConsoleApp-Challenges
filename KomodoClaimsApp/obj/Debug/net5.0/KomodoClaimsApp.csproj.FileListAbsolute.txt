@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\KomodoClaimsApp.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\KomodoClaimsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\KomodoClaimsApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\KomodoClaimsApp.AssemblyInfo.cs
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\KomodoClaimsApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\bin\Debug\net5.0\KomodoClaimsApp.exe
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\bin\Debug\net5.0\KomodoClaimsApp.deps.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\bin\Debug\net5.0\KomodoClaimsApp.runtimeconfig.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\bin\Debug\net5.0\KomodoClaimsApp.runtimeconfig.dev.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\bin\Debug\net5.0\KomodoClaimsApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\bin\Debug\net5.0\ref\KomodoClaimsApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\bin\Debug\net5.0\KomodoClaimsApp.pdb
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\KomodoClaimsApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\ref\KomodoClaimsApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\KomodoClaimsApp.pdb
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsApp\obj\Debug\net5.0\KomodoClaimsApp.genruntimeconfig.cache
