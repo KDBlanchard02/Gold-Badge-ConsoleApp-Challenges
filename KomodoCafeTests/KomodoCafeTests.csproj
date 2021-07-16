@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{18FDCA7B-A8A3-4B89-B613-829BB0BE7153}</ProjectGuid>
+    <ProjectGuid>{705BF1DC-E403-4C66-B0CF-6A07514DB6E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KomodoCafeTests</RootNamespace>
