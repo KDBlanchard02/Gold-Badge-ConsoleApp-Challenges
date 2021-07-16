@@ -40,6 +40,20 @@ namespace KomodoBadgesApp
 
         //Update
 
+        public void RemoveBadgeDoorAccess(int badgeId, string doorAccess)
+        {
+            Badge badge = GetBadgeByID(badgeId);
+
+            badge.DoorAccess.Remove(doorAccess);      
+        }
+
+        public void AddBadgeDoorAccess(int badgeId, string doorAccessTwo)
+        {
+            Badge badge = GetBadgeByID(badgeId);
+
+            badge.DoorAccess.Add(doorAccessTwo);
+        }
+
 
         //Delete
 

@@ -57,7 +57,7 @@ namespace KomodoBadgesApp
                     CreateNewBadge();
                     break;
                 case "2":
-                    
+                    UpdateDoorsOnExistingBadge();
                     break;
                 case "3":
                     
@@ -112,6 +112,54 @@ namespace KomodoBadgesApp
                 }
             }
 
+        }
+
+        private void UpdateDoorsOnExistingBadge()
+        {
+            Dictionary<int, Badge> badgeList = _repo.ShowAllBadges();
+
+            Console.WriteLine("Enter ID of badge to be edited:");
+            int badgeId = Convert.ToInt32(Console.ReadLine());
+
+            foreach (KeyValuePair<int, Badge> badge in badgeList)
+            {
+                if (badgeId == badge.Key)
+                {
+                    while (true)
+                    {
+                        Console.WriteLine($"Badge #: {badgeId}\n" +
+                                      $"Door Access: {String.Join(", ", badge.Value.DoorAccess)}\n" +
+                                      "--------------------------------- \n" +
+                                      "What would you like to do?\n" +
+                                      "1. Remove a door \n" +
+                                      "2. Add a door \n" +
+                                      "3. Return to main menu \n");
+                        switch (Console.ReadLine())
+                        {
+                            case "1":
+                                Console.WriteLine("List the door you would like to remove access to:");
+                                string doorName = Console.ReadLine();
+                                _repo.RemoveBadgeDoorAccess(badgeId, doorName);
+                                continue;
+                            case "2":
+                                Console.WriteLine("List the door you would like to add access to:");
+                                string doorNameTwo = Console.ReadLine();
+                                _repo.AddBadgeDoorAccess(badgeId, doorNameTwo);
+                                continue;
+                            case "3":
+                                PressAnyKey();
+                                return;
+                        }
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid Selection. Press any Key To Return to Main Menu.");
+                    GetMenuSelection();
+                }
+            }
+
+            PressAnyKey();
         }
 
         private void ShowAllBadges()
