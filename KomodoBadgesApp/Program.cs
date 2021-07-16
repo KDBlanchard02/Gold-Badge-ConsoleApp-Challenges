@@ -1,12 +1,148 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace KomodoBadgesApp
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ProgramUI _programUI = new ProgramUI();
+            _programUI.Start();
+        }
+    }
+
+    public class ProgramUI
+    {
+        private bool _isRunning = true;
+
+        private readonly BadgeRepository _repo = new BadgeRepository();
+
+        public void Start()
+        {
+            SeedBadgeList();
+            RunMenu();
+        }
+
+        private void RunMenu()
+        {
+            while (_isRunning)
+            {
+                string userInput = GetMenuSelection();
+                OpenMenuItem(userInput);
+            }
+        }
+
+        private string GetMenuSelection()
+        {
+            Console.Clear();
+            Console.WriteLine("Komodo Badge Management Menu - Select a # and press enter. \n" +
+                              "1. Create New Badge \n" +
+                              "2. Update Doors on Existing Badge \n" +
+                              "3. Delete All Doors on Existing Badge \n" +
+                              "4. Display All Badges \n" +
+                              "5. Exit App \n");
+
+            string userInput = Console.ReadLine();
+            return userInput;
+        }
+
+        private void OpenMenuItem(string userInput)
+        {
+            Console.Clear();
+
+            switch (userInput)
+            {
+                case "1":
+                    CreateNewBadge();
+                    break;
+                case "2":
+                    
+                    break;
+                case "3":
+                    
+                    break;
+                case "4":
+                    ShowAllBadges();
+                    break;
+                case "5":
+                    ExitApp();
+                    break;
+                default:
+                    Console.WriteLine("Invalid Selection. Press any Key To Return to Main Menu.");
+                    GetMenuSelection();
+                    return;
+            }
+        }
+
+        private void CreateNewBadge()
+        {
+            Console.Clear();
+            List<string> doorAccess = new List<string>();
+
+            Console.WriteLine("Enter the badge ID:");
+            int badgeId = Convert.ToInt32(Console.ReadLine());
+            int BadgeID = badgeId;
+            badgeId = BadgeID;
+
+            Console.WriteLine("Enter employee name:");
+            string badgeName = Console.ReadLine();
+
+            Console.WriteLine("List a door that the badge needs access to:");
+            string doorName = Console.ReadLine();
+
+            doorAccess.Add(doorName);
+
+            Badge badge = new Badge(badgeId, badgeName, doorAccess);
+            _repo.CreateNewBadge(BadgeID, badge);
+
+            while (true)
+            {
+                Console.WriteLine("Any other doors(y/n)?");
+                switch (Console.ReadLine())
+                {
+                    case "y":
+                        Console.WriteLine("List a door that the badge needs access to:");
+                        string doorNameTwo = Console.ReadLine();
+                        doorAccess.Add(doorNameTwo);
+                        continue;
+                    case "n":
+                        GetMenuSelection();
+                        return;
+                }
+            }
+
+        }
+
+        private void ShowAllBadges()
+        {
+            Dictionary<int, Badge> badgeList = _repo.ShowAllBadges();
+
+            foreach (KeyValuePair<int, Badge> badge in badgeList)
+            {
+                Console.WriteLine($"Badge #: {badge.Value.BadgeId}\n" +
+                                  $"Door Access: {String.Join(", ", badge.Value.DoorAccess)}\n" +
+                                  "--------------------------------- \n");
+            }
+
+            PressAnyKey();
+        }
+
+        private void PressAnyKey()
+        {
+            Console.WriteLine("Press any key to return to the main menu.");
+            Console.ReadKey();
+            RunMenu();
+        }
+
+        private void ExitApp()
+        {
+            _isRunning = false;
+        }
+
+        private void SeedBadgeList()
+        {
+
         }
     }
 }

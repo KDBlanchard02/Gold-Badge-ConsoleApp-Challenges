@@ -4,7 +4,7 @@ using static KomodoCafeApp.MenuRepository;
 
 namespace KomodoCafeApp
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {

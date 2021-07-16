@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\KomodoBadgesApp.exe
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\KomodoBadgesApp.deps.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\KomodoBadgesApp.runtimeconfig.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\KomodoBadgesApp.runtimeconfig.dev.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\KomodoBadgesApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\ref\KomodoBadgesApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\KomodoBadgesApp.pdb
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.AssemblyInfo.cs
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\ref\KomodoBadgesApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.pdb
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.genruntimeconfig.cache

@@ -38,7 +38,7 @@ namespace KomodoClaimsApp
         private string GetMenuSelection()
         {
             Console.Clear();
-            Console.WriteLine("Komodo Cafe Menu Management - Select a # and press enter. \n" +
+            Console.WriteLine("Komodo Claims Management Menu - Select a # and press enter. \n" +
                               "1. See All Claims \n" +
                               "2. Handle Next Claim In Queue \n" +
                               "3. Enter New Claim \n" +
@@ -101,7 +101,7 @@ namespace KomodoClaimsApp
         {
             List<Claim> claimList = _repo.SeeAllClaims();
 
-            Claim oldest = claimList.OrderByDescending(c => c.DateOfClaim).First();
+            Claim oldest = claimList.OrderByDescending(c => c.DateOfClaim).Last();
 
             SeeClaim(oldest);
             Console.WriteLine("Do you want to deal with this claim now(y/n)?");
