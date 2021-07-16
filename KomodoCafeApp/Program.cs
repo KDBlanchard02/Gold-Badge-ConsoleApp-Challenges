@@ -87,7 +87,13 @@ namespace KomodoCafeApp
         private void AddMenuItem()
         {
             Console.WriteLine("Enter a # for the menu item:");
-            int number = int.Parse(Console.ReadLine());
+            string line = Console.ReadLine();
+            int number;
+            if (!int.TryParse(line, out number))
+            {
+                Console.WriteLine("{0} is not an integer", line);
+                // Catch
+            }
 
             Console.WriteLine("Enter a name for the menu item:");
             string name = Console.ReadLine();
@@ -96,7 +102,14 @@ namespace KomodoCafeApp
             string description = Console.ReadLine();
 
             Console.WriteLine("Enter a price for the menu item:");
-            double price = double.Parse(Console.ReadLine());
+            string lineTwo = Console.ReadLine();
+            int price;
+            if (!int.TryParse(lineTwo, out price))
+            {
+                Console.WriteLine("{0} is not an integer", lineTwo);
+                // Catch
+            }
+
 
             Menu menu = new Menu(number, name, description, price);
 
@@ -115,9 +128,15 @@ namespace KomodoCafeApp
 
         private void DeleteMenuItem()
         {
-            Console.WriteLine("Enter menu item to be deleted: ");
-
-            _repo.DeleteMenuItemByTitle(int.Parse(Console.ReadLine()));
+            Console.WriteLine("Enter # of menu item to be deleted: ");
+            string line = Console.ReadLine();
+            int number;
+            if (!int.TryParse(line, out number))
+            {
+                Console.WriteLine("{0} is not an integer", line);
+                // Catch
+            }
+            _repo.DeleteMenuItemByNumber(number);
 
             PressAnyKey();
         }

@@ -39,9 +39,8 @@ namespace KomodoBadgesApp
             Console.WriteLine("Komodo Badge Management Menu - Select a # and press enter. \n" +
                               "1. Create New Badge \n" +
                               "2. Update Doors on Existing Badge \n" +
-                              "3. Delete All Doors on Existing Badge \n" +
-                              "4. Display All Badges \n" +
-                              "5. Exit App \n");
+                              "3. Display All Badges \n" +
+                              "4. Exit App \n");
 
             string userInput = Console.ReadLine();
             return userInput;
@@ -60,12 +59,9 @@ namespace KomodoBadgesApp
                     UpdateDoorsOnExistingBadge();
                     break;
                 case "3":
-                    
-                    break;
-                case "4":
                     ShowAllBadges();
                     break;
-                case "5":
+                case "4":
                     ExitApp();
                     break;
                 default:
@@ -81,7 +77,13 @@ namespace KomodoBadgesApp
             List<string> doorAccess = new List<string>();
 
             Console.WriteLine("Enter the badge ID:");
-            int badgeId = Convert.ToInt32(Console.ReadLine());
+            string line = Console.ReadLine();
+            int badgeId;
+            if (!int.TryParse(line, out badgeId))
+            {
+                Console.WriteLine("{0} is not an integer", line);
+                // Catch
+            }
             int BadgeID = badgeId;
             badgeId = BadgeID;
 
@@ -119,7 +121,14 @@ namespace KomodoBadgesApp
             Dictionary<int, Badge> badgeList = _repo.ShowAllBadges();
 
             Console.WriteLine("Enter ID of badge to be edited:");
-            int badgeId = Convert.ToInt32(Console.ReadLine());
+
+            string line = Console.ReadLine();
+            int badgeId;
+            if (!int.TryParse(line, out badgeId))
+            {
+                Console.WriteLine("{0} is not an integer", line);
+                // Catch
+            }
 
             foreach (KeyValuePair<int, Badge> badge in badgeList)
             {
@@ -127,26 +136,31 @@ namespace KomodoBadgesApp
                 {
                     while (true)
                     {
+                        Console.Clear();
                         Console.WriteLine($"Badge #: {badgeId}\n" +
                                       $"Door Access: {String.Join(", ", badge.Value.DoorAccess)}\n" +
                                       "--------------------------------- \n" +
                                       "What would you like to do?\n" +
-                                      "1. Remove a door \n" +
-                                      "2. Add a door \n" +
-                                      "3. Return to main menu \n");
+                                      "1. Add a door \n" +
+                                      "2. Remove a door \n" +
+                                      "3. Remove all doors \n" +
+                                      "4. Return to main menu \n");
                         switch (Console.ReadLine())
                         {
                             case "1":
-                                Console.WriteLine("List the door you would like to remove access to:");
+                                Console.WriteLine("List the door you would like to add access to:");
                                 string doorName = Console.ReadLine();
-                                _repo.RemoveBadgeDoorAccess(badgeId, doorName);
+                                _repo.AddBadgeDoorAccess(badgeId, doorName);
                                 continue;
                             case "2":
-                                Console.WriteLine("List the door you would like to add access to:");
+                                Console.WriteLine("List the door you would like to remove access to:");
                                 string doorNameTwo = Console.ReadLine();
-                                _repo.AddBadgeDoorAccess(badgeId, doorNameTwo);
+                                _repo.RemoveBadgeDoorAccess(badgeId, doorNameTwo);
                                 continue;
                             case "3":
+                                _repo.DeleteAllDoorsFromBadge(badgeId);
+                                continue;
+                            case "4":
                                 PressAnyKey();
                                 return;
                         }

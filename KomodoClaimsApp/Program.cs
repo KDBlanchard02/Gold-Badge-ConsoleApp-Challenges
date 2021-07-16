@@ -125,7 +125,13 @@ namespace KomodoClaimsApp
         {
             Console.Clear();
             Console.WriteLine("Enter the claim ID:");
-            int claimId = Convert.ToInt32(Console.ReadLine());
+            string line = Console.ReadLine();
+            int claimId;
+            if (!int.TryParse(line, out claimId))
+            {
+                Console.WriteLine("{0} is not an integer", line);
+                // Catch
+            }
 
             ClaimType type = GetClaimType();
 
@@ -133,10 +139,22 @@ namespace KomodoClaimsApp
             string description = Console.ReadLine();
 
             Console.WriteLine("Enter claim amount in $USD:");
-            double claimAmount = Convert.ToDouble(Console.ReadLine());
+            string lineTwo = Console.ReadLine();
+            double claimAmount;
+            if (!double.TryParse(lineTwo, out claimAmount))
+            {
+                Console.WriteLine("{0} is not an integer", lineTwo);
+                // Catch
+            }
 
             Console.WriteLine("Enter date of incident in mm/dd/yyyy format:");
-            DateTime dateOfIncident = Convert.ToDateTime(Console.ReadLine());
+            string lineThree = Console.ReadLine();
+            DateTime dateOfIncident;
+            if (!DateTime.TryParse(lineThree, out dateOfIncident))
+            {
+                Console.WriteLine("invalid format");
+                // Whatever
+            }
 
             DateTime dateOfClaim = DateTime.Now;
             TimeSpan validityWindow = dateOfClaim.Subtract(dateOfIncident);
