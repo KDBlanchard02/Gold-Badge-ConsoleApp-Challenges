@@ -14,3 +14,6 @@ C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBa
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\ref\KomodoBadgesApp.dll
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.pdb
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.genruntimeconfig.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoBadgesApp\obj\Debug\net5.0\KomodoBadgesApp.csproj.CopyComplete
