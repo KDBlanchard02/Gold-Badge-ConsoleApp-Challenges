@@ -64,12 +64,10 @@ namespace KomodoBadgesApp
 
             badge.DoorAccess.Clear();
         }
+
         public void DeleteBadge(int BadgeID, Badge badge)
         {
             _badges.Remove(BadgeID);
         }
-
-
-
     }
 }
