@@ -11,11 +11,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KomodoBadgesApp", "KomodoBa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KomodoCafeApp", "KomodoCafeApp\KomodoCafeApp.csproj", "{D86A7DFA-73DA-4BA3-85D3-65B17F59D99E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoBadgesUnitTests", "KomodoBadgesUnitTests\KomodoBadgesUnitTests.csproj", "{6E31E966-6CF9-483F-A94E-925B5A1FC120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KomodoBadgesUnitTests", "KomodoBadgesUnitTests\KomodoBadgesUnitTests.csproj", "{6E31E966-6CF9-483F-A94E-925B5A1FC120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoCafeUnitTests", "KomodoCafeUnitTests\KomodoCafeUnitTests.csproj", "{CEFB7966-4B9F-4E46-B47E-DA8D46107051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KomodoCafeUnitTests", "KomodoCafeUnitTests\KomodoCafeUnitTests.csproj", "{CEFB7966-4B9F-4E46-B47E-DA8D46107051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoClaimsUnitTests", "KomodoClaimsUnitTests\KomodoClaimsUnitTests.csproj", "{22A890BE-BB73-4208-892C-1489EF46E301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KomodoClaimsUnitTests", "KomodoClaimsUnitTests\KomodoClaimsUnitTests.csproj", "{22A890BE-BB73-4208-892C-1489EF46E301}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2232CDE-659B-48E4-ABCD-DD83CE027395}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

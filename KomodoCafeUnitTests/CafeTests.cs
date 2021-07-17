@@ -1,9 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using KomodoCafeApp;
 
-namespace KomodoCafeUnitTests
+namespace KomodoCafeApp
 {
     [TestClass]
-    public class UnitTest1
+    public class CafeTests
     {
         [TestMethod]
         public void TestMethod1()
