@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using KomodoCafeApp;
 
-namespace KomodoCafeApp
+namespace KomodoCafeTests
 {
     [TestClass]
     public class CafeTests

@@ -96,3 +96,11 @@ C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCl
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\obj\Debug\net5.0\ref\KomodoClaimsUnitTests.dll
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\obj\Debug\net5.0\KomodoClaimsUnitTests.pdb
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\obj\Debug\net5.0\KomodoClaimsUnitTests.genruntimeconfig.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\bin\Debug\net5.0\KomodoClaimsApp.deps.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\bin\Debug\net5.0\KomodoClaimsApp.runtimeconfig.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\bin\Debug\net5.0\KomodoClaimsApp.runtimeconfig.dev.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\bin\Debug\net5.0\KomodoClaimsApp.exe
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\bin\Debug\net5.0\KomodoClaimsApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoClaimsUnitTests\bin\Debug\net5.0\KomodoClaimsApp.pdb

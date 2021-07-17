@@ -20,7 +20,7 @@ namespace KomodoBadgesTests
         public void Arrange()
         {
             string[] doorAccess = { "A7", "A8", "A9" };
-            List<string> DoorAccess = new List<string>(doorAccess);
+            List<string> DoorAccess = new List<string>(doorAccess);;
             int BadgeID = 3;
 
             _repo = new BadgeRepository();
@@ -46,16 +46,26 @@ namespace KomodoBadgesTests
         }
 
         [TestMethod]
-        public void CreateNewBadge_IsNotNull()
+        public void CreateBadge_IsNotNull()
+        {
+            //arrange
+            int BadgeID = 44;
+
+            //act
+            bool isCreated = _repo.CreateNewBadge(BadgeID, _badge);
+
+            //assert
+            Assert.IsTrue(isCreated);
+        }
+
+        [TestMethod]
+        public void GetBadgeByID_IsNotNull()
         {
             //arrange
             int BadgeID = 3;
-            Badge badge = new Badge();
-            BadgeRepository badgeRepository = new BadgeRepository();
 
             //act
-            badgeRepository.CreateNewBadge(BadgeID, badge);
-            Badge newBadge = badgeRepository.GetBadgeByID(BadgeID);
+            Badge newBadge = _repo.GetBadgeByID(BadgeID);
 
             //assert
             Assert.IsNotNull(newBadge);

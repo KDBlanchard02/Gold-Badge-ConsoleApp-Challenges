@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KomodoClaimsApp
 {
-    class ClaimsRepository
+    public class ClaimsRepository
     {
         //CRUD
 
