@@ -138,6 +138,7 @@ namespace KomodoBadgesApp
                     {
                         Console.Clear();
                         Console.WriteLine($"Badge #: {badgeId}\n" +
+                                      $"Employee Name: {badge.Value.BadgeName}\n" +
                                       $"Door Access: {String.Join(", ", badge.Value.DoorAccess)}\n" +
                                       "--------------------------------- \n" +
                                       "What would you like to do?\n" +
@@ -183,6 +184,7 @@ namespace KomodoBadgesApp
             foreach (KeyValuePair<int, Badge> badge in badgeList)
             {
                 Console.WriteLine($"Badge #: {badge.Value.BadgeId}\n" +
+                                  $"Employee Name: {badge.Value.BadgeName}\n" +
                                   $"Door Access: {String.Join(", ", badge.Value.DoorAccess)}\n" +
                                   "--------------------------------- \n");
             }
@@ -204,7 +206,12 @@ namespace KomodoBadgesApp
 
         private void SeedBadgeList()
         {
+            string[] doorAccess = { "A7", "A8", "A1", "A3" };
+            List<string> DoorAccess = new List<string>(doorAccess);
+            Badge kevin = new Badge(1234, "Kevin Blanchard", DoorAccess);
+            int kevBadgeId = 1234;
 
+            _repo.CreateNewBadge(kevBadgeId, kevin);
         }
     }
 }
