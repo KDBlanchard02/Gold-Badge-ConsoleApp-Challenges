@@ -65,8 +65,6 @@ namespace KomodoBadgesApp
                     ExitApp();
                     break;
                 default:
-                    Console.WriteLine("Invalid Selection. Press any Key To Return to Main Menu.");
-                    GetMenuSelection();
                     return;
             }
         }
