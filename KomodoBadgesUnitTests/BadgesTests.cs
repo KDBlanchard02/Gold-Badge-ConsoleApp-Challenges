@@ -108,5 +108,17 @@ namespace KomodoBadgesTests
             //assert
             Assert.AreNotSame(_badge, updatedBadge);
         }
+
+        [TestMethod]
+        public void DisplayBadges_IsNotNull()
+        {
+            //arrange
+
+            //act
+            _repo.ShowAllBadges();
+
+            //assert
+            Assert.IsNotNull(_repo.ShowAllBadges());
+        }
     }
 }

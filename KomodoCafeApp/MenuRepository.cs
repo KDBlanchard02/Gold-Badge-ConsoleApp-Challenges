@@ -39,10 +39,6 @@ namespace KomodoCafeApp
         }
 
         //Delete
-        public void DeleteMenuItem(Menu menu)
-        {
-            _menu.Remove(menu);
-        }
 
         public bool DeleteMenuItemByNumber(int number)
         {

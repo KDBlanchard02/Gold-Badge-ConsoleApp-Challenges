@@ -96,3 +96,12 @@ C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCa
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\obj\Debug\net5.0\ref\KomodoCafeUnitTests.dll
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\obj\Debug\net5.0\KomodoCafeUnitTests.pdb
 C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\obj\Debug\net5.0\KomodoCafeUnitTests.genruntimeconfig.cache
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\KomodoCafeApp.deps.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\KomodoCafeApp.runtimeconfig.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\KomodoCafeApp.runtimeconfig.dev.json
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\KomodoCafeApp.exe
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\KomodoCafeApp.dll
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\KomodoCafeApp.pdb
+C:\Users\User\Desktop\ElevenFiftyProjects\GoldBadgeConsoleAppChallenges\KomodoCafeUnitTests\bin\Debug\net5.0\KomodoCafeApp.dll.config

@@ -14,9 +14,17 @@ namespace KomodoBadgesApp
         private readonly Dictionary<int, Badge> _badges = new Dictionary<int, Badge>();
 
         //Create
-        public void CreateNewBadge(int BadgeID, Badge badge)
+        public bool CreateNewBadge(int BadgeID, Badge badge)
         {
-            _badges.Add(BadgeID, badge);
+            if (BadgeID != 0)
+            {
+                _badges.Add(BadgeID, badge);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         //Read
@@ -64,11 +72,6 @@ namespace KomodoBadgesApp
             Badge badge = GetBadgeByID(badgeId);
 
             badge.DoorAccess.Clear();
-        }
-
-        public void DeleteBadge(int BadgeID, Badge badge)
-        {
-            _badges.Remove(BadgeID);
         }
     }
 }
