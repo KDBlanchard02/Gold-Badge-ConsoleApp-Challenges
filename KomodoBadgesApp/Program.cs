@@ -64,8 +64,6 @@ namespace KomodoBadgesApp
                 case "4":
                     ExitApp();
                     break;
-                default:
-                    return;
             }
         }
 
